@@ -185,7 +185,7 @@
     <!-- Footer -->
     <footer class="footer-custom text-center">
         <p>
-            Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }}) &mdash; Developed by <a href="https://github.com/Ashirwad-Kushwaha">Ashirwad-Kushwaha</a>
+            Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }}) &mdash; Developed by <a href="https://github.com/RaushanPatel">Raushan Patel</a>
         </p>
     </footer>
 
