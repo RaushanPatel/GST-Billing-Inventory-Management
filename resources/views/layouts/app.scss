@@ -1,0 +1,45 @@
+// app.scss
+
+// Define color variables for the theme
+$primary-color: #0d6efd; // Bootstrap's primary blue color
+$secondary-color: #f8f9fa; // Light gray for background
+
+body {
+    background-color: $secondary-color;
+    font-family: 'Nunito', sans-serif;
+}
+
+// Navbar styling
+.navbar {
+    background-color: $primary-color;
+    .navbar-brand, .nav-link, .navbar-toggler-icon {
+        color: white !important;
+    }
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+}
+
+// Dropdown menu styling
+.dropdown-menu {
+    background-color: $primary-color;
+    .dropdown-item {
+        color: white !important;
+    }
+    .dropdown-item:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+// Button styles for forms
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    &:hover {
+        background-color: darken($primary-color, 10%);
+        border-color: darken($primary-color, 10%);
+    }
+}
